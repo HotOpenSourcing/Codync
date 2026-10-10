@@ -23,3 +23,5 @@ brag-output*/
 
 # Launch video projects
 videos/
+config.bat
+node_modules

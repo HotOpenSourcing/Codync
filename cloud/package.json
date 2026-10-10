@@ -6,7 +6,7 @@
   "license": "Apache-2.0",
   "type": "module",
   "scripts": {
-    "dev": "wrangler dev --env local",
+    "dev": "node init && wrangler dev --env local",
     "deploy:dev": "wrangler deploy --env dev",
     "deploy:main": "wrangler deploy",
     "typecheck": "tsc && tsc -p test/e2e",
